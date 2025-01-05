@@ -1,0 +1,149 @@
+
+
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    html{
+        background-color:rgb(255, 255, 255);
+    }
+    /*  .body_wrapper{
+        width: 100vw;
+        height: 100vh;
+        min-width: 652px;
+    } */ 
+    .contant_box{
+        width: 20rem;
+        height: 24rem;
+        background-color:rgb(248, 246, 244);
+        border-radius: .8rem;
+        margin: auto;
+        margin-top: 1.5rem;
+        border: .25rem solid #4285F4;
+        box-shadow: 0.19rem 0.19rem 1.25rem rgb(199, 197, 197),
+                      -0.19rem -0.19rem 1.25rem rgb(199, 197, 197);
+    }
+    .box_header{
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: 'Ubuntu', sans-serif;
+        color:rgb(8, 167, 8) ;
+        font-weight:bolder;
+    }
+    .box_subheader{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: .8rem;
+        color:#28bbff ;
+        font-weight:bolder;
+        padding-bottom: .28rem;
+    }
+    .hr-1{
+        border-top: 0.15rem solid #4285F4;
+    }
+    .hr-2{
+        border-top: 0.05rem solid #5593f5;
+    }
+    .box_main{
+        width: 18rem;
+        height: 9.7rem;
+        margin: auto;
+        padding-top:1rem ;
+    }
+    .l5{
+        font-weight: bold;
+        font-size:1.2rem;
+    }
+    .l1{
+        display: inline;
+        font-size: .8rem;
+        font-weight: bold;
+        color: #000000;
+    }
+    .l2{
+        display: inline;
+        font-size: .8rem;
+        color: #000000;
+    }
+    .box_footer{
+        width: 18rem;
+        height: rem;
+        margin: auto;
+        padding-top:.8rem ;  
+    }
+    .note_box{
+        border: 0.05rem red;
+        width: 17rem;
+        height: .5rem;
+        text-align: center;
+    }
+    .note{
+        display: inline;
+        font-size: .75rem;
+        color: rgb(255, 50, 50);
+    }
+    .btn_area{
+        width: 13rem;
+        margin: auto;
+        margin-top: .6rem;
+    
+    }
+    
+    .btn_1{
+        width: 13rem;
+        font-size: .9rem ;
+        font-weight: bold;
+        padding: 06px 0px;
+        margin-bottom: 1px;
+        margin-top: 8px;
+        border-radius:50px;
+        border: .8px ;
+        background-color: #2a7bff;
+        transition: 1s;
+        color: #ffffff;
+    }
+
+    .btn_2{
+        width: 13rem;
+        font-size: .9rem ;
+        font-weight: bold;
+        padding: 06px 0px;
+        border-radius:50px;
+        border: .8px ;
+        background-color: #2a7bff;
+        transition: 1s;
+        color: #ffffff;
+    }
+
+    .btn:hover{
+        color:#ffffff;
+        background-color: #1956b8;
+    }
+    .credit_box{
+        width: 21.5rem;
+        height: 6rem;
+        margin: auto;
+    }
+    .credit{
+        font-size: 0.78rem;
+        font-weight: bold;
+        color: #050404; 
+        text-align: center;
+    }
+    .credit a{
+        text-decoration: none; 
+    }
+    .seddike{
+        cursor: pointer;
+        color: #1681fc;
+        font-family: 'Patrick Hand', cursive;
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+    
+    
+    
+    
