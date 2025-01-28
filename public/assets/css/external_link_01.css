@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: wait;
+    user-select: none;
+
+}
+html{
+    background-color: #81818131;
+}
+.logoArea{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.pageLogo{
+    /* width: 55vw; */
+    width: 25rem;
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    /* margin: auto; */
+    padding: 3vw ;
+    background-color: #ffffff;
+    font-family: 'Ubuntu',  sans-serif;
+    color: #007fda;
+    text-shadow: 5px whitesmoke; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: .3rem;
+    text-decoration: none;
+    box-shadow: #007fda28 0px 1px 5px;
+
+}
+
+/* .pageLogo:hover{
+    box-shadow: #007fda38 0px 3px 8px;
+} */
+.infoLine{
+    font-size: 3rem;
+    font-family: console;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 30vh;
+    color: #fd0000;
+    /* color: #11c24c; */
+    font-family: fira;
+}
+
+
+
+
+/* *************************************************************************************************************** */
+
+
+
+
+
+@media screen and (min-device-width: 100px) and (max-device-width: 768px) { 
+    .logoArea{
+        margin-top: 8vh;
+        display: flex;
+        justify-content: center;
+    }
+    .pageLogo{
+        width: 78vw;
+        max-width:21rem ;
+        font-size: 18vw;
+        font-weight: 700;
+        text-align: center;
+        /* margin: auto; */
+        padding: 10vw 5vw;
+        border-radius: .3rem;
+        text-decoration: none;
+    }
+    .infoLine{
+        font-size: 7vw;
+        font-family: console;
+        font-weight: 100;
+        text-align: center;
+        margin-top: 15vh;
+        color: #fd0000;
+        font-family: fira;
+    }
+}
